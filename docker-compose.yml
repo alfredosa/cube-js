@@ -93,6 +93,21 @@ services:
     networks:
       - airflowdbt
 
+  cube:
+    image: cubejs/cube
+    container_name: cube
+    hostname: cube
+    volumes:
+      - ./conf/cube:/cube/conf
+    ports:
+      - 3000:3000
+      - 4000:4000
+      - 3245:3245
+    networks:
+      - onestack
+    depends_on:
+      - postgres
+      
 networks:
   airflowdbt:
     driver: bridge
