@@ -2,3 +2,11 @@
 *.log
 .env
 /conf/metabase/*.db
+
+# conf
+conf/**/*.jks
+conf/**/*.crt
+conf/cube/.cubestore
+
+# Metabase
+conf/metabase/metabase.db.trace.db

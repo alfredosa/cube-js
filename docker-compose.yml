@@ -104,10 +104,10 @@ services:
       - 4000:4000
       - 3245:3245
     networks:
-      - onestack
+      - airflowdbt
     depends_on:
       - postgres
-      
+
 networks:
   airflowdbt:
     driver: bridge
