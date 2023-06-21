@@ -13,6 +13,7 @@ dbt-postgres = "^1.5.1"
 pandas = "^2.0.2"
 astronomer-cosmos = "^0.7.3"
 black = "^23.3.0"
+kaggle = "^1.5.13"
 
 
 [build-system]

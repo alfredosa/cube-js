@@ -10,3 +10,6 @@ conf/cube/.cubestore
 
 # Metabase
 conf/metabase/metabase.db.trace.db
+
+# Kaggle Creds
+kaggle.json
