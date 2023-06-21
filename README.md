@@ -2,13 +2,6 @@
 
 ### Usage
 
-- download kaggle.json from kaggle account
-- run
-    ```shell
-    kaggle competitions download -c new-york-city-taxi-fare-prediction -p ~/dataset && \
-    unzip dataset/new-york-city-taxi-fare-prediction.zip -d dataset && \
-    rm dataset/new-york-city-taxi-fare-prediction.zip
-    ```
 - run the applications -> Cube.js, Metabase, Postgres (With Kaggle Dataset)
     ```shell
     docker compose up
